@@ -1,0 +1,12 @@
+{
+  "name": "exercicio-1---criando-tipos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc-watch": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
