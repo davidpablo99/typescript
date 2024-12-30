@@ -30,9 +30,12 @@ function findSpaceship(name: string) {
       inMission: boolean
     }
     
-    spaceship = spaceships.find((ship) => {spaceship.name === name})
+    spaceship = spaceships.find((ship) => {
+      return ship.name === name
+    });
+    
     return spaceship
-}
+  }
 
 function addCrewMember(member:string, spaceship:{name:string, crewLimit:number, crew:string[]}){
     if (spaceship.crew.length>= spaceship.crewLimit){

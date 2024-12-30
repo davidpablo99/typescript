@@ -16,7 +16,9 @@ function addSpaceship(name, pilot, crewLimit) {
 }
 function findSpaceship(name) {
     let spaceship;
-    spaceship = spaceships.find((ship) => { spaceship.name === name; });
+    spaceship = spaceships.find((ship) => {
+        return ship.name === name;
+    });
     return spaceship;
 }
 function addCrewMember(member, spaceship) {
