@@ -1,17 +1,7 @@
 {
-  "compilerOptions": {
-    "target": "es5",                  // Define a versão de JavaScript para compilar.
-    "module": "commonjs",             // Define o sistema de módulos a ser usado.
-    "strict": true,                   // Ativa várias verificações rigorosas de tipos.
-    "esModuleInterop": true,          // Habilita a interoperabilidade entre módulos CommonJS e ES.
-    "skipLibCheck": true,             // Pula a verificação de tipos nas bibliotecas.
-    "forceConsistentCasingInFileNames": true  // Garante consistência de maiúsculas/minúsculas no sistema de arquivos.
-  },
-  "include": [
-    "src/**/*.ts"                      // Define os arquivos que serão incluídos no projeto.
-  ],
-  "exclude": [
-    "node_modules",                    // Exclui a pasta node_modules.
-    "dist"                              // Exclui a pasta de saída de compilação.
-  ]
-}
+    "compilerOptions": {
+      "target": "ESNext",
+      "outDir": "exercicio-declarando-tipos/public/dist",
+      "watch": true
+    }
+  }

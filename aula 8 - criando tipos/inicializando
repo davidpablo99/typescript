@@ -1,0 +1,31 @@
+# # mkdir criando-tipos && cd criando-tipos
+# # npm init -y
+# # npm install --save-dev typescript
+# # mkdir src public
+# # touch src/index.ts public/index.html
+
+# # Prepare os arquivos package.json e tsconfig.json:
+
+#     // package.json
+# {
+#   "name": "criando-tipos",
+#   "version": "1.0.0",
+#   "description": "",
+#   "main": "index.js",
+#   "scripts": {
+#     "build": "tsc"
+#   },
+#   "keywords": [],
+#   "author": "",
+#   "license": "ISC",
+#   "devDependencies": {
+#     "typescript": "^4.4.4"
+#   }
+# }
+
+# // tsconfig.json
+# {
+#   "compilerOptions": {
+#     "outDir": "public/dist"
+#   }
+# }
